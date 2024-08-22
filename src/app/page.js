@@ -39,12 +39,12 @@ export default function Home() {
             </svg>
           </Link>
         </section>
-        <section className="flex flex-col justify-center items-center gap-2">
+        <section className="flex flex-col justify-center items-center gap-7">
           <div id="mista-k-podpisu" className="text-3xl">Místa k podpisu</div>
 
           <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/purolofohu" width="400" height="280" frameborder="0"></iframe>
-            <div class="flex flex-col justify-between p-4 leading-normal w-[400px]">
+            <iframe className={"w-screen sm:w-[400px]"} style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/purolofohu"  height="280" frameborder="0"></iframe>
+            <div class="flex flex-col justify-between p-4 leading-normal w-screen sm:w-[400px]">
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
                 Gastrocentrum Karlovy Vary s.r.o. <br />
                 Gastroenterologická ordinace<br />
@@ -57,9 +57,9 @@ export default function Home() {
 
 
           <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/purolofohu" width="400" height="280" frameborder="0"></iframe>
+            <iframe className={"w-screen sm:w-[400px]"} style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/purolofohu" height="280" frameborder="0"></iframe>
 
-            <div class="flex flex-col justify-between p-4 leading-normal w-[400px]">
+            <div class="flex flex-col justify-between p-4 leading-normal w-screen sm:w-[400px]">
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
                 Mgr. Petr Šťastný - rehabilitace Alžbětiny lázně<br />
                 Smetanovy sady 1145/1<br />
@@ -70,8 +70,8 @@ export default function Home() {
 
 
           <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/davucozero" width="400" height="280" frameborder="0"></iframe>
-            <div class="flex flex-col justify-between p-4 leading-normal w-[400px]">
+            <iframe className={"w-screen sm:w-[400px]"} style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/davucozero" height="280" frameborder="0"></iframe>
+            <div class="flex flex-col justify-between p-4 leading-normal w-screen sm:w-[400px]">
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
                 Nail Shop<br />
                 Bulharská 743/11<br />
@@ -82,8 +82,8 @@ export default function Home() {
 
 
           <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/logugeneda" width="400" height="280" frameborder="0"></iframe>
-            <div class="flex flex-col justify-between p-4 leading-normal w-[400px]">
+            <iframe className={"w-screen sm:w-[400px]"} style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/logugeneda" height="280" frameborder="0"></iframe>
+            <div class="flex flex-col justify-between p-4 leading-normal w-screen sm:w-[400px]">
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
                 Vinotéka Dobré víno<br />
                 Vítězná 8<br />
