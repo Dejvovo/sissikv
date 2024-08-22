@@ -8,8 +8,8 @@ export default function Home() {
     <div className="bg-customWhite scroll-smooth">
       <nav class=" border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0   dark:border-gray-700">
+          <div class="w-full block" id="navbar-default">
+            <ul class="font-medium flex p-0  border-gray-100 rounded-lg flex-row space-x-8 rtl:space-x-reverse mt-0 border-0   dark:border-gray-700">
               <li>
                 <a href="#">Petice</a>
               </li>
@@ -25,11 +25,11 @@ export default function Home() {
       </nav>
 
       <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[url('/alzbetiny-lazne.jpg')] bg-no-repeat bg-contain">
-        <section className="min-h-screen flex flex-col w-[1000px] justify-normal items-center gap-5">
+        <section className="min-h-screen flex flex-col w-screen md:w-full justify-normal items-center gap-5">
           <div className="bg-red-500 items-center text-center py-5 opacity-90 text-customWhite font-semibold rounded-md">
             <div className="text-3xl">Podepište prosím petici</div>
             <div className="">
-            Podepište prosím petici na podporu zachování Alžbětiných lázní v Karlových Varech. Chcete, aby tento objekt zůstal ve vlastnictví a správě města jako veřejné lázeňské a rehabilitační zařízení, aniž by byl prodán nebo pronajat jiným subjektům? Pokud ano, připojte svůj podpis a podpořte zachování této cenné služby pro veřejnost.  
+              Podepište prosím petici na podporu zachování Alžbětiných lázní v Karlových Varech. Chcete, aby tento objekt zůstal ve vlastnictví a správě města jako veřejné lázeňské a rehabilitační zařízení, aniž by byl prodán nebo pronajat jiným subjektům? Pokud ano, připojte svůj podpis a podpořte zachování této cenné služby pro veřejnost.
             </div>
           </div>
           <button className="bg-red-500 opacity-90 rounded-md inline-block w-[250px] h-[50px]" onClick={() => window.open('https://portal.gov.cz/e-petice/819-alzbetiny-lazne-karlovy-vary-navrh-na-konani-mistniho-referenda', '_blank')}><span className="m-10 text-customWhite font-semibold">Chci podepsat</span></button>
@@ -45,7 +45,7 @@ export default function Home() {
           <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/purolofohu" width="400" height="280" frameborder="0"></iframe>
             <div class="flex flex-col justify-between p-4 leading-normal w-[400px]">
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
                 Gastrocentrum Karlovy Vary s.r.o. <br />
                 Gastroenterologická ordinace<br />
                 Smetanovy sady 1145/1<br />
@@ -60,7 +60,7 @@ export default function Home() {
             <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/purolofohu" width="400" height="280" frameborder="0"></iframe>
 
             <div class="flex flex-col justify-between p-4 leading-normal w-[400px]">
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
                 Mgr. Petr Šťastný - rehabilitace Alžbětiny lázně<br />
                 Smetanovy sady 1145/1<br />
                 Karlovy Vary <br />
@@ -72,7 +72,7 @@ export default function Home() {
           <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/davucozero" width="400" height="280" frameborder="0"></iframe>
             <div class="flex flex-col justify-between p-4 leading-normal w-[400px]">
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
                 Nail Shop<br />
                 Bulharská 743/11<br />
                 Karlovy Vary <br />
@@ -84,7 +84,7 @@ export default function Home() {
           <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/logugeneda" width="400" height="280" frameborder="0"></iframe>
             <div class="flex flex-col justify-between p-4 leading-normal w-[400px]">
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
                 Vinotéka Dobré víno<br />
                 Vítězná 8<br />
                 Karlovy Vary <br />
