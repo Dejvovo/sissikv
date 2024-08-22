@@ -28,17 +28,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[url('/alzbetiny-lazne.png')] bg-no-repeat bg-contain">
-
-        {/* <section class="grid-cols-2 min-h-full relative">
-          <Image
-            src={'/alzbetiny-lazne.png'}
-            alt="ALžbětiny lázně"
-            layout="fill"
-            className="blur-sm"
-          />
-      </section> */}
-
+      <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[url('/alzbetiny-lazne.jpg')] bg-no-repeat bg-contain">
         <section className="min-h-screen flex flex-col w-[1000px] justify-normal items-center gap-5">
           <div className="bg-red-500 items-center text-center py-5 opacity-90 text-customWhite font-semibold rounded-md">
             <div className="text-3xl">Podepište prosím petici</div>
