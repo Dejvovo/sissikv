@@ -18,7 +18,7 @@ export default function Home() {
                 <a href="#">Petice</a>
               </li>
               <li>
-                <a href="#sberna-mista">Sběrná místa</a>
+                <a href="#mista-k-podpisu">Místa k podpisu</a>
               </li>
               <li>
                 <a href="/vysvetlujici-dopis">Vysvětlující text</a>
@@ -44,7 +44,7 @@ export default function Home() {
           </Link>
         </section>
         <section className="flex flex-col justify-center items-center gap-2">
-          <div id="sberna-mista" className="text-3xl">Sběrná místa</div>
+          <div id="mista-k-podpisu" className="text-3xl">Místa k podpisu</div>
 
           <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/purolofohu" width="400" height="280" frameborder="0"></iframe>
