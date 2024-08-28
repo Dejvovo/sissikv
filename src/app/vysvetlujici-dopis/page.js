@@ -11,7 +11,7 @@ export default function Home() {
                 <a href="/">Petice</a>
               </li>
               <li>
-                <a href="/#mista-k-podpisu">Místa k podpisu</a>
+                <a href="/#mista-k-podpisu">Podpisová místa</a>
               </li>
               <li>
                 <a href="/vysvetlujici-dopis">Vysvětlující text</a>
@@ -47,7 +47,7 @@ export default function Home() {
                 V letošním roce se situace zlepšuje, náklady klesají i díky kompletní rekonstrukci a výměně oken, což snížilo energetickou náročnost budovy o téměř 40 %. Rovněž dochází k výraznému nárůstu tržeb od samoplátců. Denně je recepce plná zahraničních i českých klientů, jak samoplátců, tak i těch, kteří čerpají služby hrazené zdravotními pojišťovnami.
               </p>
               <p className="mb-4">
-                Místo návrhu na postupnou obnovu Alžbětiných lázní, i kdyby to trvalo desítky let (od revoluce uběhlo 35 let a dosud se jen „látaly díry“), se uvažuje o jejich prodeji. Ekonomická návratnost pro investora však není zaručena.
+                Místo návrhu na postupnou obnovu Alžbětiných lázní, i kdyby to trvalo desítky let (od revoluce uběhlo 35 let a dosud se jen „látaly díry“), se uvažuje o jejich prodeji.
               </p>
               <p className="mb-4">
                 Bohužel se nerealizoval návrh na změnu právní formy Alžbětiných lázní z akciové společnosti na příspěvkovou organizaci, což by usnadnilo přístup k evropským dotacím a umožnilo postupnou opravu objektu, aby mohl být předán dalším generacím. Navíc několik let zůstává nevyužitý prostor bývalé vodoléčby, přestože existuje ekonomická analýza, která předpokládá návratnost rekonstrukce během tří let. Tento potenciální zdroj zisku je tak nevyužitý.              </p>
