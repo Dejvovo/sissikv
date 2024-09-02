@@ -115,6 +115,30 @@ export default function Home() {
             </div>
           </div>
 
+
+          <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/hojufafage" width="400" height="280" frameborder="0"></iframe>
+            <div class="flex flex-col justify-between p-4 leading-normal w-screen sm:w-[400px]">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
+                Ordinace praktického lékaře: MUDr. Pavel Smutný<br />
+                Vítězná 194/35<br />
+                Karlovy Vary, Drahovice<br />
+              </p>
+            </div>
+          </div>
+
+
+          <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <iframe style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/cagusupero" width="400" height="280" frameborder="0"></iframe>
+            <div class="flex flex-col justify-between p-4 leading-normal w-screen sm:w-[400px]">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
+                Ordinace praktického lékaře: MUDr.L Špidla <br />
+                Nákladní 645/21<br />
+                Karlovy Vary, Rybáře<br />
+              </p>
+            </div>
+          </div>
+
         </section>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 David Goliard</span>
