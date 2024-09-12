@@ -139,6 +139,28 @@ export default function Home() {
             </div>
           </div>
 
+          <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+          <iframe className={"w-screen sm:w-[400px]"} style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/purolofohu" height="280" frameborder="0"></iframe>
+          <div class="flex flex-col justify-between p-4 leading-normal w-screen sm:w-[400px]">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
+                MUDr. Claudia Štuksová gynekologická ambulance GynSpa medica s. r. o<br />
+                Smetanovy sady 1145/1<br />
+                Karlovy Vary <br />
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+          <iframe className={"w-screen sm:w-[400px]"} style={{ border: 'none' }} src="https://en.frame.mapy.cz/s/purolofohu" height="280" frameborder="0"></iframe>
+          <div class="flex flex-col justify-between p-4 leading-normal w-screen sm:w-[400px]">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-right sm:text-left">
+                MUDr. Tammam Madani neurologická ambulance<br />
+                Smetanovy sady 1145/1<br />
+                Karlovy Vary <br />
+              </p>
+            </div>
+          </div>
+
         </section>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 David Goliard</span>
